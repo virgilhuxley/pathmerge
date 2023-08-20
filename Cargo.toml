@@ -1,6 +1,6 @@
 [package]
 name = "pathmerge"
-version = "0.0.4"
+version = "0.0.5"
 edition = "2018"
 description = "cli PATH merging and deduplicating tool"
 readme = "README.md"
