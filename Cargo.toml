@@ -1,0 +1,13 @@
+[package]
+name = "pathmerge"
+version = "0.0.4"
+edition = "2018"
+description = "cli PATH merging and deduplicating tool"
+readme = "README.md"
+repository = "https://github.com/virgilhuxley/pathmerge"
+license = "MIT"
+keywords = ["shell","path","env","profile","bashrc"]
+
+[dependencies]
+clap = { version = "4.3.11", features = ["derive", "env"] }
+
