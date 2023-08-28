@@ -41,7 +41,7 @@ echo $NEWPATH
 
 ```sh
 UGLYPATH="/a:/b:/c:/a:/a:/c:/b:/c"
-CLEANPATH="$(pathmerge --path $UGLYPATH)
+CLEANPATH="$(pathmerge --path $UGLYPATH)"
 
 echo $CLEANPATH
 # output
